@@ -1,0 +1,33 @@
+﻿
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+/*profil fotografları için*/
+.my-image{
+    border-radius:5px;
+    max-height:100px;
+    max-width:100px;
+    border: 2px solid #d3d3d3;
+}
+/*Tabloların içindeki fotoğraflari için. Class ile erişim*/
+.my-image-table{
+    border-radius:5px;
+    max-height:100px;
+    max-width:100px;
+    border:2px solid #d3d3d3;
+}

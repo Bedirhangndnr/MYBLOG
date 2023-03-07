@@ -1,0 +1,12 @@
+C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Shared\bin\Release\net6.0\MyBlog.Shared.deps.json
+C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Shared\bin\Release\net6.0\MyBlog.Shared.dll
+C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Shared\bin\Release\net6.0\MyBlog.Shared.pdb
+C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Shared\obj\Release\net6.0\MyBlog.Shared.csproj.AssemblyReference.cache
+C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Shared\obj\Release\net6.0\MyBlog.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Shared\obj\Release\net6.0\MyBlog.Shared.AssemblyInfoInputs.cache
+C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Shared\obj\Release\net6.0\MyBlog.Shared.AssemblyInfo.cs
+C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Shared\obj\Release\net6.0\MyBlog.Shared.csproj.CoreCompileInputs.cache
+C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Shared\obj\Release\net6.0\MyBlog.Shared.dll
+C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Shared\obj\Release\net6.0\refint\MyBlog.Shared.dll
+C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Shared\obj\Release\net6.0\MyBlog.Shared.pdb
+C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Shared\obj\Release\net6.0\ref\MyBlog.Shared.dll

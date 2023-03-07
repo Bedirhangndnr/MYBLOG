@@ -1,0 +1,15 @@
+C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Entities\bin\Release\net6.0\MyBlog.Entities.deps.json
+C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Entities\bin\Release\net6.0\MyBlog.Entities.dll
+C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Entities\bin\Release\net6.0\MyBlog.Entities.pdb
+C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Entities\bin\Release\net6.0\MyBlog.Shared.dll
+C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Entities\bin\Release\net6.0\MyBlog.Shared.pdb
+C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Entities\obj\Release\net6.0\MyBlog.Entities.csproj.AssemblyReference.cache
+C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Entities\obj\Release\net6.0\MyBlog.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Entities\obj\Release\net6.0\MyBlog.Entities.AssemblyInfoInputs.cache
+C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Entities\obj\Release\net6.0\MyBlog.Entities.AssemblyInfo.cs
+C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Entities\obj\Release\net6.0\MyBlog.Entities.csproj.CoreCompileInputs.cache
+C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Entities\obj\Release\net6.0\MyBlog.Entities.csproj.CopyComplete
+C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Entities\obj\Release\net6.0\MyBlog.Entities.dll
+C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Entities\obj\Release\net6.0\refint\MyBlog.Entities.dll
+C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Entities\obj\Release\net6.0\MyBlog.Entities.pdb
+C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Entities\obj\Release\net6.0\ref\MyBlog.Entities.dll
