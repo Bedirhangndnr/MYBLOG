@@ -41,7 +41,7 @@ namespace MyBlog.Mvc.Halpers.Concrete
             }
         }
 
-        public async Task<IDataResult<UploadedImageDto>> UploadUserImage(string userName, IFormFile pictureFile, string folderName)
+        public async Task<IDataResult<ImageUploadedDto>> UploadUserImage(string userName, IFormFile pictureFile, string folderName)
         {
             if (!Directory.Exists($"{_wwwroot}/{imgFolder}/{folderName}"))
             {
@@ -57,8 +57,8 @@ namespace MyBlog.Mvc.Halpers.Concrete
                 await pictureFile.CopyToAsync(stream);
             }
 
-            return new DataResult<UploadedImageDto>(ResultStatus.Success,
-                new UploadedImageDto
+            return new DataResult<ImageUploadedDto>(ResultStatus.Success,
+                new ImageUploadedDto
                 {
                     FullName = $"{folderName}/{newFileName}",
                     OldName = oldFileName,

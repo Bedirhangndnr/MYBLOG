@@ -193,14 +193,14 @@ namespace MyBlog.Data.Migrations
                         new
                         {
                             Id = 1,
-                            ConcurrencyStamp = "f96c2d33-6c9d-4452-a556-3082095719b9",
+                            ConcurrencyStamp = "b76bf798-bcbb-44c2-948c-ad0acb408587",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
                             Id = 2,
-                            ConcurrencyStamp = "29c40c45-f0b7-4720-a0a9-e0e771f1fa51",
+                            ConcurrencyStamp = "5f75b587-3b30-4318-9629-dfd210d00c0a",
                             Name = "Editor",
                             NormalizedName = "EDITOR"
                         });
@@ -306,17 +306,17 @@ namespace MyBlog.Data.Migrations
                         {
                             Id = 1,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "cf57c608-6f24-402e-876e-2b70a31cb517",
+                            ConcurrencyStamp = "7e4cd50d-05e2-4d4c-bc85-99e2191c1502",
                             Email = "adminuser@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMINUSER@GMAIL.COM",
                             NormalizedUserName = "ADMINUSER",
-                            PasswordHash = "AQAAAAEAACcQAAAAEBMQRXrAZRnf3LeW7Bv7m0VAzKHgZg9zLeZ0hrJagSRWivcDObFfZehA9tlP6RtoFg==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEGWkdF+evmdqnXwN8G5uxvX5FojSH+1LX31oSMySfGIYEsH1Gqg94hAHC2oRJddp2A==",
                             PhoneNumber = "+905555555555",
                             PhoneNumberConfirmed = true,
                             Picture = "defaultUser.png",
-                            SecurityStamp = "1e9307fb-db5d-4fdb-a2de-4f8972b2268f",
+                            SecurityStamp = "e3ccc79d-4c1d-4b77-ab47-935f2ee02123",
                             TwoFactorEnabled = false,
                             UserName = "adminuser"
                         },
@@ -324,17 +324,17 @@ namespace MyBlog.Data.Migrations
                         {
                             Id = 2,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "7c823cc7-0c8c-45e3-a1de-a5dc221cab50",
+                            ConcurrencyStamp = "0d6816db-bc4d-4366-967c-727362d04e73",
                             Email = "editoruser@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "EDITORUSER@GMAIL.COM",
                             NormalizedUserName = "EDITORUSER",
-                            PasswordHash = "AQAAAAEAACcQAAAAENVqMmCuLjY1wKcGmca+umD3Hte1ZxslLQq0pLat1upKC0jEzdWSPU9CNvD47pcwBw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEJHo1UBnG+W98dzkoOXkPwlkGiNWb6CCB9roe3gYB+j4xut9OnsXcc++K80bBMnxQg==",
                             PhoneNumber = "+905555555555",
                             PhoneNumberConfirmed = true,
                             Picture = "defaultUser.png",
-                            SecurityStamp = "3c4fd44f-b053-43b1-880e-a64d55ce8975",
+                            SecurityStamp = "9174fb7a-6377-4cbf-914b-8645b2e489af",
                             TwoFactorEnabled = false,
                             UserName = "editoruser"
                         });
@@ -489,12 +489,12 @@ namespace MyBlog.Data.Migrations
                         {
                             Id = 1,
                             CreatedByName = "InitialCreate",
-                            CreatedDate = new DateTime(2023, 3, 6, 13, 27, 5, 288, DateTimeKind.Local).AddTicks(8116),
+                            CreatedDate = new DateTime(2023, 3, 7, 22, 6, 58, 56, DateTimeKind.Local).AddTicks(7099),
                             Description = "C# Programlama Dili ile tlgili En Güncel Bilgiler",
                             IsActive = true,
                             IsDeleted = false,
                             ModifiedByName = "InitialCreate",
-                            ModifiedDate = new DateTime(2023, 3, 6, 13, 27, 5, 288, DateTimeKind.Local).AddTicks(8117),
+                            ModifiedDate = new DateTime(2023, 3, 7, 22, 6, 58, 56, DateTimeKind.Local).AddTicks(7100),
                             Name = "C#",
                             Note = "C# Blog Kategorisi"
                         },
@@ -502,12 +502,12 @@ namespace MyBlog.Data.Migrations
                         {
                             Id = 2,
                             CreatedByName = "InitialCreate",
-                            CreatedDate = new DateTime(2023, 3, 6, 13, 27, 5, 288, DateTimeKind.Local).AddTicks(8121),
+                            CreatedDate = new DateTime(2023, 3, 7, 22, 6, 58, 56, DateTimeKind.Local).AddTicks(7103),
                             Description = "C++ Programlama Dili ile tlgili En Güncel Bilgiler",
                             IsActive = true,
                             IsDeleted = false,
                             ModifiedByName = "InitialCreate",
-                            ModifiedDate = new DateTime(2023, 3, 6, 13, 27, 5, 288, DateTimeKind.Local).AddTicks(8121),
+                            ModifiedDate = new DateTime(2023, 3, 7, 22, 6, 58, 56, DateTimeKind.Local).AddTicks(7103),
                             Name = "C++",
                             Note = "C++ Blog Kategorisi"
                         },
@@ -515,12 +515,12 @@ namespace MyBlog.Data.Migrations
                         {
                             Id = 3,
                             CreatedByName = "InitialCreate",
-                            CreatedDate = new DateTime(2023, 3, 6, 13, 27, 5, 288, DateTimeKind.Local).AddTicks(8124),
+                            CreatedDate = new DateTime(2023, 3, 7, 22, 6, 58, 56, DateTimeKind.Local).AddTicks(7106),
                             Description = "Python Programlama Dili ile tlgili En Güncel Bilgiler",
                             IsActive = true,
                             IsDeleted = false,
                             ModifiedByName = "InitialCreate",
-                            ModifiedDate = new DateTime(2023, 3, 6, 13, 27, 5, 288, DateTimeKind.Local).AddTicks(8124),
+                            ModifiedDate = new DateTime(2023, 3, 7, 22, 6, 58, 56, DateTimeKind.Local).AddTicks(7106),
                             Name = "Python",
                             Note = "Python Blog Kategorisi"
                         },
@@ -528,12 +528,12 @@ namespace MyBlog.Data.Migrations
                         {
                             Id = 4,
                             CreatedByName = "InitialCreate",
-                            CreatedDate = new DateTime(2023, 3, 6, 13, 27, 5, 288, DateTimeKind.Local).AddTicks(8127),
+                            CreatedDate = new DateTime(2023, 3, 7, 22, 6, 58, 56, DateTimeKind.Local).AddTicks(7108),
                             Description = "C++ Programlama Dili ile tlgili En Güncel Bilgiler",
                             IsActive = true,
                             IsDeleted = false,
                             ModifiedByName = "InitialCreate",
-                            ModifiedDate = new DateTime(2023, 3, 6, 13, 27, 5, 288, DateTimeKind.Local).AddTicks(8127),
+                            ModifiedDate = new DateTime(2023, 3, 7, 22, 6, 58, 56, DateTimeKind.Local).AddTicks(7109),
                             Name = "C++",
                             Note = "C++ Blog Kategorisi"
                         },
@@ -541,12 +541,12 @@ namespace MyBlog.Data.Migrations
                         {
                             Id = 5,
                             CreatedByName = "InitialCreate",
-                            CreatedDate = new DateTime(2023, 3, 6, 13, 27, 5, 288, DateTimeKind.Local).AddTicks(8130),
+                            CreatedDate = new DateTime(2023, 3, 7, 22, 6, 58, 56, DateTimeKind.Local).AddTicks(7111),
                             Description = "C++ Programlama Dili ile tlgili En Güncel Bilgiler",
                             IsActive = true,
                             IsDeleted = false,
                             ModifiedByName = "InitialCreate",
-                            ModifiedDate = new DateTime(2023, 3, 6, 13, 27, 5, 288, DateTimeKind.Local).AddTicks(8130),
+                            ModifiedDate = new DateTime(2023, 3, 7, 22, 6, 58, 56, DateTimeKind.Local).AddTicks(7112),
                             Name = "C++",
                             Note = "C++ Blog Kategorisi"
                         });

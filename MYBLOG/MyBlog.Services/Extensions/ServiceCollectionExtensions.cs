@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 using MyBlog.Data.Abstract;
 using MyBlog.Data.Concrete;
 using MyBlog.Data.Concrete.EntityFramework.Context;
@@ -15,8 +16,8 @@ namespace MyBlog.Services.Extensions
 {
     public static class ServiceCollectionExtensions // static, bu sınıfta oluturulan nesnelere sadece direkt bu sınıf üzerinden erişim sağlama kısıtı getirir. -> Class.Write("something"); gibi
     {
-        public static IServiceCollection LoadMyServices(this IServiceCollection serviceCollection) {
-            serviceCollection.AddDbContext<MyBlogContext>();
+        public static IServiceCollection LoadMyServices(this IServiceCollection serviceCollection, string connectionString) {
+            serviceCollection.AddDbContext<MyBlogContext>(options=>options.UseSqlServer(connectionString));
             serviceCollection.AddIdentity<User, Role>(options =>
             {
                 // email adresi kullanılırak 2. bir kayıt oluşturulabilir mi* şifrede rakam bulunmalı mı gibi kurallar/ ayarlar buradan kontrol edilir 
@@ -33,6 +34,7 @@ namespace MyBlog.Services.Extensions
             serviceCollection.AddScoped<IUnitOfWork, UnitOfWork>(); //IUnitOfWork istendiğinde UnitOfWork u ver.
             serviceCollection.AddScoped<ICategoryService, CategoryManager>();
             serviceCollection.AddScoped<IArticleService, ArticleManager>();
+            serviceCollection.AddScoped<ICommentService, CommentManager>();
             return serviceCollection;
 
         }

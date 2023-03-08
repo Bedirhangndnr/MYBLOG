@@ -19,7 +19,11 @@ builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation().AddJsonO
 
 builder.Services.AddSession();
 builder.Services.AddAutoMapper(typeof(CategoryProfile), typeof(ArticleProfile), typeof(UserProfile)); // Eklendi
-builder.Services.LoadMyServices(); // Eklendi
+
+// Eklendi // mvc katmanı ile diğer katmanlar arasında köprü görevi görür
+var Configuration = builder.Configuration;
+builder.Services.LoadMyServices(connectionString: Configuration.GetConnectionString("LocalDb"));
+
 // sevis kaydedilmeli
 builder.Services.AddScoped<IImageHelper, ImageHelper>();
 builder.Services.Configure<FormOptions>(options =>options.ValueCountLimit= 10000);

@@ -13,9 +13,9 @@ namespace MyBlog.Data.Concrete.EntityFramework.Context
 {
     public class MyBlogContext:IdentityDbContext<User, Role, int,UserClaim, UserRole,UserLogin, RoleClaim, UserToken>
     {
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        public MyBlogContext(DbContextOptions<MyBlogContext> options): base(options)
         {
-            optionsBuilder.UseSqlServer(connectionString: "server=NAHRIDEBREN\\SQLEXPRESS;database=MyBlog;integrated security=true");
+
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

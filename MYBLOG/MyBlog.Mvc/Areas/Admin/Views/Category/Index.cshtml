@@ -5,10 +5,14 @@
     Layout = "_Layout";
     ViewBag.Title = "Kategoriler Index";
 }
+<ol class="breadcrumb mb-r mt-2">
+    <li class="breadcrumb-item"> <a asp-area="Admin" asp-controller="Home" asp-action="Index">Admin</a></li>
+    <li class="breadcrumb-item active"><a asp-area="Admin" asp-controller="Category" asp-action="Index">Kategoriler</a></li>
+</ol>
 @if (Model.ResultStatus == ResultStatus.Success)
 {
     <a onclick="toastr.success('Have fun storming the castle!', 'Miracle Max Says')">TOASTR İÇİN TIKLAs</a>
-    <div id="modalPlaceHolder" aria-hidden="true"></div> @*'d verme sebebimiz, divi seçip divin içine partial view verecek olmamısz*@
+    <div id="modalPlaceHolder" aria-hidden="true"></div> @*id verme sebebimiz, divi seçip divin içine partial view verecek olmamısz*@
     <div class="card mb-4 mt-2">
         <div class="card-header">
             <i class="fas fa-table mr-1"></i>

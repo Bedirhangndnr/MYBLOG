@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using MyBlog.Data.Abstract;
+using MyBlog.Data.Concrete.EntityFramework.Context;
 using MyBlog.Entities.Concrete;
 using MyBlog.Shared.Data.Concrete.EntityFramework;
 using MyBlog.Shared.Entities.Concrete;
@@ -15,6 +16,19 @@ namespace MyBlog.Data.Concrete.EntityFramework.Repositories
     {
         public EfCategoryRepository(DbContext dbContext) : base(dbContext)
         {
+        }
+
+        public async Task<Category> GetById(int id)
+        {
+            return await MyBlogContext.Categories.SingleOrDefaultAsync(x => x.Id == id);
+        }
+
+        private MyBlogContext MyBlogContext
+        {
+            get
+            {
+                return _context as MyBlogContext;
+            }
         }
     }
 }

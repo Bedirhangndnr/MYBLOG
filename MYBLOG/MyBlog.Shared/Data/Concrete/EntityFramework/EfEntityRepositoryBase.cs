@@ -12,7 +12,7 @@ namespace MyBlog.Shared.Data.Concrete.EntityFramework
 {
     public class EfEntityRepositoryBase<TEntity> : IEntityRepository<TEntity> where TEntity : class, IEntity, new()
     {
-        private readonly DbContext _context;
+        protected readonly DbContext _context;
         public EfEntityRepositoryBase(DbContext dbContext)
         {
             _context = dbContext;
@@ -21,7 +21,7 @@ namespace MyBlog.Shared.Data.Concrete.EntityFramework
         public async Task<TEntity> AddAsync(TEntity entity)
         {
             await _context.Set<TEntity>().AddAsync(entity);
-            return entity; 
+            return entity;
         }
 
         public async Task<bool> AnyAsync(Expression<Func<TEntity, bool>> predicate)
@@ -29,21 +29,20 @@ namespace MyBlog.Shared.Data.Concrete.EntityFramework
             return await _context.Set<TEntity>().AnyAsync(predicate);
         }
 
-        public async Task<int> CountAsync(Expression<Func<TEntity, bool>> predicate)
+        public async Task<int> CountAsync(Expression<Func<TEntity, bool>> predicate=null)
         {
-            return await _context.Set<TEntity>().CountAsync(predicate);
+            return await (predicate==null? _context.Set<TEntity>().CountAsync() : _context.Set<TEntity>().CountAsync(predicate));
         }
 
         public async Task DeleteAsync(TEntity entity)
         {
 
-            await Task.Run(()=> { _context.Set<TEntity>().Remove(entity); });
+            await Task.Run(() => { _context.Set<TEntity>().Remove(entity); });
         }
 
-        public async Task<IList<TEntity>> GetAllAsync(Expression<Func<TEntity, bool>> predicate = null, params Expression<Func<TEntity, object>>[] includeProperties)
+        public async Task<IList<TEntity>> GetAllAsync(Expression<Func<TEntity, bool>> predicate=null, params Expression<Func<TEntity, object>>[] includeProperties)
         {
-            //
-            IQueryable<TEntity> query=_context.Set<TEntity>();
+            IQueryable<TEntity> query = _context.Set<TEntity>();
             if (predicate != null)
             {
                 query = query.Where(predicate);
@@ -71,7 +70,7 @@ namespace MyBlog.Shared.Data.Concrete.EntityFramework
                 {
                     query = query.Include(includeProperty);
                 }
-            } 
+            }
             return await query.SingleOrDefaultAsync();
         }
 
@@ -82,7 +81,7 @@ namespace MyBlog.Shared.Data.Concrete.EntityFramework
             await _context.Set<TEntity>().AddAsync(entity);
 
             await Task.Run(() => { _context.Set<TEntity>().Update(entity); });
-          //await Task.Run(() => { _context.Set<IEntity>().Update(entity); }); // çalışmıyor 
+            //await Task.Run(() => { _context.Set<IEntity>().Update(entity); }); // çalışmıyor 
             return entity;
         }
     }

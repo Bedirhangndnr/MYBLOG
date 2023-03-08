@@ -2,6 +2,7 @@
 using MyBlog.Shared.Entities.Concrete;
 using MyBlog.Shared.Utilities.Results;
 using MyBlog.Shared.Utilities.Results.Abstract;
+using MyBlog.Shared.Utilities.Results.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace MyBlog.Services.Abstract
 {
-    public interface ICategoryService
+    public interface ICategoryService: IGenericService<Category>
     {
         Task<IDataResult<CategoryDto>> Get(int categoryId);
         Task<IDataResult<CategoryUpdateDto>> GetCategoryUpdateDto(int categoryId);
@@ -22,6 +23,9 @@ namespace MyBlog.Services.Abstract
         Task<IDataResult<CategoryDto>> Update(CategoryUpdateDto categoryUpdateDto, string modifiedByName);
         Task<IDataResult<CategoryDto>> Delete(int categoriId, string modifiedByName); // veritabınından silmez, pasif yapar.
         Task<IResult> HardDelete(int categoriId); // veritabanından siler.
+        Task<IDataResult<int>> Count(); // veritabanından siler.
+        Task<DataResult<int>> CountByIsDeleted();
+
 
     }
 }

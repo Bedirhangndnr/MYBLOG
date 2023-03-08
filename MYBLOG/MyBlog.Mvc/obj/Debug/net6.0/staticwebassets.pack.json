@@ -1,6 +1,418 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\css\\main.css",
+      "PackagePath": "staticwebassets\\ComingSoon\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\css\\util.css",
+      "PackagePath": "staticwebassets\\ComingSoon\\css\\util.css"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\Lato\\Lato-Black.ttf",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\Lato\\Lato-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\Lato\\Lato-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\Lato\\Lato-BlackItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\Lato\\Lato-Bold.ttf",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\Lato\\Lato-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\Lato\\Lato-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\Lato\\Lato-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\Lato\\Lato-Hairline.ttf",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\Lato\\Lato-Hairline.ttf"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\Lato\\Lato-HairlineItalic.ttf",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\Lato\\Lato-HairlineItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\Lato\\Lato-Italic.ttf",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\Lato\\Lato-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\Lato\\Lato-Light.ttf",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\Lato\\Lato-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\Lato\\Lato-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\Lato\\Lato-LightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\Lato\\Lato-Regular.ttf",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\Lato\\Lato-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\Lato\\OFL.txt",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\Lato\\OFL.txt"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\Poppins\\Poppins-Black.ttf",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\Poppins\\Poppins-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\Poppins\\Poppins-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\Poppins\\Poppins-BlackItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\Poppins\\Poppins-Bold.ttf",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\Poppins\\Poppins-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\Poppins\\Poppins-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\Poppins\\Poppins-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\Poppins\\Poppins-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\Poppins\\Poppins-ExtraBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\Poppins\\Poppins-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\Poppins\\Poppins-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\Poppins\\Poppins-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\Poppins\\Poppins-ExtraLight.ttf"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\Poppins\\Poppins-ExtraLightItalic.ttf",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\Poppins\\Poppins-ExtraLightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\Poppins\\Poppins-Italic.ttf",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\Poppins\\Poppins-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\Poppins\\Poppins-Light.ttf",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\Poppins\\Poppins-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\Poppins\\Poppins-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\Poppins\\Poppins-LightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\Poppins\\Poppins-Medium.ttf",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\Poppins\\Poppins-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\Poppins\\Poppins-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\Poppins\\Poppins-MediumItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\Poppins\\Poppins-Regular.ttf",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\Poppins\\Poppins-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\Poppins\\Poppins-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\Poppins\\Poppins-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\Poppins\\Poppins-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\Poppins\\Poppins-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\Poppins\\Poppins-Thin.ttf",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\Poppins\\Poppins-Thin.ttf"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\Poppins\\Poppins-ThinItalic.ttf",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\Poppins\\Poppins-ThinItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\font-awesome-4.7.0\\HELP-US-OUT.txt",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\font-awesome-4.7.0\\HELP-US-OUT.txt"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\font-awesome-4.7.0\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\font-awesome-4.7.0\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\font-awesome-4.7.0\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\font-awesome-4.7.0\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\font-awesome-4.7.0\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\font-awesome-4.7.0\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\font-awesome-4.7.0\\less\\animated.less",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\font-awesome-4.7.0\\less\\animated.less"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\font-awesome-4.7.0\\less\\bordered-pulled.less",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\font-awesome-4.7.0\\less\\bordered-pulled.less"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\font-awesome-4.7.0\\less\\core.less",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\font-awesome-4.7.0\\less\\core.less"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\font-awesome-4.7.0\\less\\fixed-width.less",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\font-awesome-4.7.0\\less\\fixed-width.less"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\font-awesome-4.7.0\\less\\font-awesome.less",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\font-awesome-4.7.0\\less\\font-awesome.less"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\font-awesome-4.7.0\\less\\icons.less",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\font-awesome-4.7.0\\less\\icons.less"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\font-awesome-4.7.0\\less\\larger.less",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\font-awesome-4.7.0\\less\\larger.less"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\font-awesome-4.7.0\\less\\list.less",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\font-awesome-4.7.0\\less\\list.less"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\font-awesome-4.7.0\\less\\mixins.less",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\font-awesome-4.7.0\\less\\mixins.less"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\font-awesome-4.7.0\\less\\path.less",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\font-awesome-4.7.0\\less\\path.less"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\font-awesome-4.7.0\\less\\rotated-flipped.less",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\font-awesome-4.7.0\\less\\rotated-flipped.less"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\font-awesome-4.7.0\\less\\screen-reader.less",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\font-awesome-4.7.0\\less\\screen-reader.less"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\font-awesome-4.7.0\\less\\stacked.less",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\font-awesome-4.7.0\\less\\stacked.less"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\font-awesome-4.7.0\\less\\variables.less",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\font-awesome-4.7.0\\less\\variables.less"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\font-awesome-4.7.0\\scss\\_animated.scss",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\font-awesome-4.7.0\\scss\\_animated.scss"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\font-awesome-4.7.0\\scss\\_bordered-pulled.scss",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\font-awesome-4.7.0\\scss\\_bordered-pulled.scss"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\font-awesome-4.7.0\\scss\\_core.scss",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\font-awesome-4.7.0\\scss\\_core.scss"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\font-awesome-4.7.0\\scss\\_fixed-width.scss",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\font-awesome-4.7.0\\scss\\_fixed-width.scss"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\font-awesome-4.7.0\\scss\\_icons.scss",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\font-awesome-4.7.0\\scss\\_icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\font-awesome-4.7.0\\scss\\_larger.scss",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\font-awesome-4.7.0\\scss\\_larger.scss"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\font-awesome-4.7.0\\scss\\_list.scss",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\font-awesome-4.7.0\\scss\\_list.scss"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\font-awesome-4.7.0\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\font-awesome-4.7.0\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\font-awesome-4.7.0\\scss\\_path.scss",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\font-awesome-4.7.0\\scss\\_path.scss"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\font-awesome-4.7.0\\scss\\_rotated-flipped.scss",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\font-awesome-4.7.0\\scss\\_rotated-flipped.scss"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\font-awesome-4.7.0\\scss\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\font-awesome-4.7.0\\scss\\_screen-reader.scss"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\font-awesome-4.7.0\\scss\\_stacked.scss",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\font-awesome-4.7.0\\scss\\_stacked.scss"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\font-awesome-4.7.0\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\font-awesome-4.7.0\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\fonts\\font-awesome-4.7.0\\scss\\font-awesome.scss",
+      "PackagePath": "staticwebassets\\ComingSoon\\fonts\\font-awesome-4.7.0\\scss\\font-awesome.scss"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\images\\bg01.jpg",
+      "PackagePath": "staticwebassets\\ComingSoon\\images\\bg01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\images\\bg02.jpg",
+      "PackagePath": "staticwebassets\\ComingSoon\\images\\bg02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\images\\bg03.jpg",
+      "PackagePath": "staticwebassets\\ComingSoon\\images\\bg03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\images\\icons\\favicon.ico",
+      "PackagePath": "staticwebassets\\ComingSoon\\images\\icons\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\images\\icons\\logo.png",
+      "PackagePath": "staticwebassets\\ComingSoon\\images\\icons\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\images\\icons\\video-16-9.jpg",
+      "PackagePath": "staticwebassets\\ComingSoon\\images\\icons\\video-16-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\js\\main.js",
+      "PackagePath": "staticwebassets\\ComingSoon\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\vendor\\animate\\animate.css",
+      "PackagePath": "staticwebassets\\ComingSoon\\vendor\\animate\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\vendor\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\ComingSoon\\vendor\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\ComingSoon\\vendor\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\ComingSoon\\vendor\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\ComingSoon\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\ComingSoon\\vendor\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\ComingSoon\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\ComingSoon\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\ComingSoon\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\vendor\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\ComingSoon\\vendor\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\vendor\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\ComingSoon\\vendor\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\ComingSoon\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\ComingSoon\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\vendor\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\ComingSoon\\vendor\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\ComingSoon\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\vendor\\bootstrap\\js\\popper.js",
+      "PackagePath": "staticwebassets\\ComingSoon\\vendor\\bootstrap\\js\\popper.js"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\vendor\\bootstrap\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\ComingSoon\\vendor\\bootstrap\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\vendor\\bootstrap\\js\\tooltip.js",
+      "PackagePath": "staticwebassets\\ComingSoon\\vendor\\bootstrap\\js\\tooltip.js"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\vendor\\countdowntime\\countdowntime.js",
+      "PackagePath": "staticwebassets\\ComingSoon\\vendor\\countdowntime\\countdowntime.js"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\vendor\\countdowntime\\moment-timezone-with-data.min.js",
+      "PackagePath": "staticwebassets\\ComingSoon\\vendor\\countdowntime\\moment-timezone-with-data.min.js"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\vendor\\countdowntime\\moment-timezone.min.js",
+      "PackagePath": "staticwebassets\\ComingSoon\\vendor\\countdowntime\\moment-timezone.min.js"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\vendor\\countdowntime\\moment.min.js",
+      "PackagePath": "staticwebassets\\ComingSoon\\vendor\\countdowntime\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\vendor\\jquery\\jquery-3.2.1.min.js",
+      "PackagePath": "staticwebassets\\ComingSoon\\vendor\\jquery\\jquery-3.2.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\vendor\\select2\\select2.css",
+      "PackagePath": "staticwebassets\\ComingSoon\\vendor\\select2\\select2.css"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\vendor\\select2\\select2.js",
+      "PackagePath": "staticwebassets\\ComingSoon\\vendor\\select2\\select2.js"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\vendor\\select2\\select2.min.css",
+      "PackagePath": "staticwebassets\\ComingSoon\\vendor\\select2\\select2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\vendor\\select2\\select2.min.js",
+      "PackagePath": "staticwebassets\\ComingSoon\\vendor\\select2\\select2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\vendor\\tilt\\tilt.jquery.min.js",
+      "PackagePath": "staticwebassets\\ComingSoon\\vendor\\tilt\\tilt.jquery.min.js"
+    },
+    {
       "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\assets\\demo\\chart-area-demo.js",
       "PackagePath": "staticwebassets\\assets\\demo\\chart-area-demo.js"
     },
@@ -45,48 +457,36 @@
       "PackagePath": "staticwebassets\\img\\TestUser_459_19_21_1_6_3_2023.png"
     },
     {
-      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\img\\admasinawsdas_726_58_55_11_4_3_2023.png",
-      "PackagePath": "staticwebassets\\img\\admasinawsdas_726_58_55_11_4_3_2023.png"
-    },
-    {
       "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\img\\noise-transparent.png",
       "PackagePath": "staticwebassets\\img\\noise-transparent.png"
     },
     {
-      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\img\\userImages\\adminsuser@gmail.com_110_50_1_16_7_3_2023.png",
-      "PackagePath": "staticwebassets\\img\\userImages\\adminsuser@gmail.com_110_50_1_16_7_3_2023.png"
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\img\\postImages\\defaultThumbnail.jpg",
+      "PackagePath": "staticwebassets\\img\\postImages\\defaultThumbnail.jpg"
     },
     {
-      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\img\\userImages\\adminsuser@gmail.com_135_33_13_16_7_3_2023.png",
-      "PackagePath": "staticwebassets\\img\\userImages\\adminsuser@gmail.com_135_33_13_16_7_3_2023.png"
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\img\\userImages\\adminsuser@gmail.com_381_52_42_16_7_3_2023.jfif",
+      "PackagePath": "staticwebassets\\img\\userImages\\adminsuser@gmail.com_381_52_42_16_7_3_2023.jfif"
     },
     {
-      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\img\\userImages\\adminsuser@gmail.com_592_41_13_16_7_3_2023.png",
-      "PackagePath": "staticwebassets\\img\\userImages\\adminsuser@gmail.com_592_41_13_16_7_3_2023.png"
-    },
-    {
-      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\img\\userImages\\adminudser@gmail.com_325_3_14_16_7_3_2023.png",
-      "PackagePath": "staticwebassets\\img\\userImages\\adminudser@gmail.com_325_3_14_16_7_3_2023.png"
-    },
-    {
-      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\img\\userImages\\adminudser@gmail.com_455_57_13_16_7_3_2023.png",
-      "PackagePath": "staticwebassets\\img\\userImages\\adminudser@gmail.com_455_57_13_16_7_3_2023.png"
-    },
-    {
-      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\img\\userImages\\adminudser@gmail.com_764_42_6_16_7_3_2023.png",
-      "PackagePath": "staticwebassets\\img\\userImages\\adminudser@gmail.com_764_42_6_16_7_3_2023.png"
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\img\\userImages\\adminuser_484_58_51_16_7_3_2023.jfif",
+      "PackagePath": "staticwebassets\\img\\userImages\\adminuser_484_58_51_16_7_3_2023.jfif"
     },
     {
       "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\img\\userImages\\defaultUser.png",
       "PackagePath": "staticwebassets\\img\\userImages\\defaultUser.png"
     },
     {
-      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\img\\userImages\\editoruser_452_56_14_16_7_3_2023.png",
-      "PackagePath": "staticwebassets\\img\\userImages\\editoruser_452_56_14_16_7_3_2023.png"
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\img\\userImages\\editoruser_639_42_51_16_7_3_2023.png",
+      "PackagePath": "staticwebassets\\img\\userImages\\editoruser_639_42_51_16_7_3_2023.png"
     },
     {
       "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\js\\categoryIndex.js",
       "PackagePath": "staticwebassets\\js\\categoryIndex.js"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\js\\homeIndex.js",
+      "PackagePath": "staticwebassets\\js\\homeIndex.js"
     },
     {
       "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\js\\scripts.js",
