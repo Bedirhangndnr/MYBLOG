@@ -27,7 +27,7 @@ namespace MyBlog.Services.Concrete
             _mapper = mapper;
         }
 
-        public async Task<IResult> Add(ArticleAddDto ArticleAddDto, string createdByName)
+        public async Task<IResult> AddAsync(ArticleAddDto ArticleAddDto, string createdByName)
         {
             var article= _mapper.Map<Article>(ArticleAddDto);
             article.CreatedByName= createdByName;
@@ -37,7 +37,7 @@ namespace MyBlog.Services.Concrete
             return new Result(ResultStatus.Success, Messages.Article.Add(article.Title)); 
         }
 
-        public async Task<IDataResult<ArticleDto>> Get(int articleId)
+        public async Task<IDataResult<ArticleDto>> GetAsync(int articleId)
         {
             var article = await _unitOfWork.Articles.GetAsync(a => a.Id == articleId, a => a.User, a => a.Category);
             if (article!=null)
@@ -52,7 +52,7 @@ namespace MyBlog.Services.Concrete
 
         }
 
-        public async Task<IDataResult<ArticleListDto>> GetAll()
+        public async Task<IDataResult<ArticleListDto>> GetAllAsync()
         {
             var articles = await _unitOfWork.Articles.GetAllAsync(null, a => a.User, a => a.Category);
             if (articles.Count > -1)
@@ -66,7 +66,7 @@ namespace MyBlog.Services.Concrete
             return new DataResult<ArticleListDto>(ResultStatus.Error, null, Messages.Article.NotFound(false));
         }
 
-        public async Task<IDataResult<ArticleListDto>> GetAllByCategory(int categoryId)
+        public async Task<IDataResult<ArticleListDto>> GetAllByCategoryAsync(int categoryId)
         {
             var ısAnyCategory = await _unitOfWork.Categories.AnyAsync(c=>c.Id==categoryId);
             if (ısAnyCategory)
@@ -85,7 +85,7 @@ namespace MyBlog.Services.Concrete
             return new DataResult<ArticleListDto>(ResultStatus.Error, null, Messages.Article.NotFound(false));
         }
 
-        public async Task<IDataResult<ArticleListDto>> GetAllByNonDeleted()
+        public async Task<IDataResult<ArticleListDto>> GetAllByNonDeletedAsync()
         {
             var articles = await _unitOfWork.Articles.GetAllAsync(a => !a.IsDeleted, a => a.User, a => a.Category);
             if (articles.Count > -1)
@@ -99,7 +99,7 @@ namespace MyBlog.Services.Concrete
             return new DataResult<ArticleListDto>(ResultStatus.Error, null, Messages.Article.NotFound(false));
         }
 
-        public async Task<IDataResult<ArticleListDto>> GetAllByNonDeletedAndActive()
+        public async Task<IDataResult<ArticleListDto>> GetAllByNonDeletedAndActiveAsync()
         {
             var articles=await _unitOfWork.Articles.GetAllAsync(a=>!a.IsActive && a.IsActive, a=> a.User, a => a.Category);
             if (articles.Count > -1)
@@ -117,7 +117,7 @@ namespace MyBlog.Services.Concrete
         {
             throw new NotImplementedException();
         }
-        public async Task<IResult> Delete(int articleId, string modifiedByName)
+        public async Task<IResult> DeleteAsync(int articleId, string modifiedByName)
         {
             var value=await _unitOfWork.Articles.AnyAsync(x=>x.Id==articleId);
             if (value)
@@ -131,7 +131,7 @@ namespace MyBlog.Services.Concrete
             }
             return new Result(resultStatus: ResultStatus.Error, Messages.Article.NotFound(false));
         }
-        public async Task<IResult> HardDelete(int articleId)
+        public async Task<IResult> HardDeleteAsync(int articleId)
         {
             var value = await _unitOfWork.Articles.AnyAsync(x => x.Id == articleId);
             string articleName;
@@ -145,7 +145,7 @@ namespace MyBlog.Services.Concrete
             return new Result(resultStatus: ResultStatus.Error, Messages.Article.NotFound(false));
         }
 
-        public async Task<IResult> Update(ArticleUpdateDto ArticleUpdateDto, string modifiedByName)
+        public async Task<IResult> UpdateAsync(ArticleUpdateDto ArticleUpdateDto, string modifiedByName)
         {
             var article=_mapper.Map<Article>(ArticleUpdateDto);
             article.ModifiedByName = modifiedByName;
@@ -153,7 +153,7 @@ namespace MyBlog.Services.Concrete
             return new Result(resultStatus: ResultStatus.Success, Messages.Article.Update(article.Title));
         }
 
-        public async Task<IDataResult<int>> Count()
+        public async Task<IDataResult<int>> CountAsync()
         {
             var articlesCount = await _unitOfWork.Articles.CountAsync();
             if (articlesCount > -1)
@@ -166,7 +166,7 @@ namespace MyBlog.Services.Concrete
             }
         }
 
-        public async Task<DataResult<int>> CountByIsDeleted()
+        public async Task<IDataResult<int>> CountByNonDeletedAsync()
         {
             var articlesCount = await _unitOfWork.Articles.CountAsync(x=>!x.IsDeleted);
             if (articlesCount > -1)

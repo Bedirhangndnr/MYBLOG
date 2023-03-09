@@ -1,6 +1,62 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\AdminArea\\assets\\demo\\chart-area-demo.js",
+      "PackagePath": "staticwebassets\\AdminArea\\assets\\demo\\chart-area-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\AdminArea\\assets\\demo\\chart-bar-demo.js",
+      "PackagePath": "staticwebassets\\AdminArea\\assets\\demo\\chart-bar-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\AdminArea\\assets\\demo\\chart-pie-demo.js",
+      "PackagePath": "staticwebassets\\AdminArea\\assets\\demo\\chart-pie-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\AdminArea\\assets\\demo\\datatables-demo.js",
+      "PackagePath": "staticwebassets\\AdminArea\\assets\\demo\\datatables-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\AdminArea\\assets\\img\\error-404-monochrome.svg",
+      "PackagePath": "staticwebassets\\AdminArea\\assets\\img\\error-404-monochrome.svg"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\AdminArea\\css\\httpErrorBgAnimation.css",
+      "PackagePath": "staticwebassets\\AdminArea\\css\\httpErrorBgAnimation.css"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\AdminArea\\css\\site.css",
+      "PackagePath": "staticwebassets\\AdminArea\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\AdminArea\\css\\styles.css",
+      "PackagePath": "staticwebassets\\AdminArea\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\AdminArea\\css\\userLogin.css",
+      "PackagePath": "staticwebassets\\AdminArea\\css\\userLogin.css"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\AdminArea\\js\\categoryIndex.js",
+      "PackagePath": "staticwebassets\\AdminArea\\js\\categoryIndex.js"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\AdminArea\\js\\homeIndex.js",
+      "PackagePath": "staticwebassets\\AdminArea\\js\\homeIndex.js"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\AdminArea\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\AdminArea\\js\\scripts.js"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\AdminArea\\js\\site.js",
+      "PackagePath": "staticwebassets\\AdminArea\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\AdminArea\\js\\userIndex.js",
+      "PackagePath": "staticwebassets\\AdminArea\\js\\userIndex.js"
+    },
+    {
       "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\ComingSoon\\css\\main.css",
       "PackagePath": "staticwebassets\\ComingSoon\\css\\main.css"
     },
@@ -413,42 +469,6 @@
       "PackagePath": "staticwebassets\\ComingSoon\\vendor\\tilt\\tilt.jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\assets\\demo\\chart-area-demo.js",
-      "PackagePath": "staticwebassets\\assets\\demo\\chart-area-demo.js"
-    },
-    {
-      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\assets\\demo\\chart-bar-demo.js",
-      "PackagePath": "staticwebassets\\assets\\demo\\chart-bar-demo.js"
-    },
-    {
-      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\assets\\demo\\chart-pie-demo.js",
-      "PackagePath": "staticwebassets\\assets\\demo\\chart-pie-demo.js"
-    },
-    {
-      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\assets\\demo\\datatables-demo.js",
-      "PackagePath": "staticwebassets\\assets\\demo\\datatables-demo.js"
-    },
-    {
-      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\assets\\img\\error-404-monochrome.svg",
-      "PackagePath": "staticwebassets\\assets\\img\\error-404-monochrome.svg"
-    },
-    {
-      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\css\\httpErrorBgAnimation.css",
-      "PackagePath": "staticwebassets\\css\\httpErrorBgAnimation.css"
-    },
-    {
-      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
-    },
-    {
-      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\css\\styles.css",
-      "PackagePath": "staticwebassets\\css\\styles.css"
-    },
-    {
-      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\css\\userLogin.css",
-      "PackagePath": "staticwebassets\\css\\userLogin.css"
-    },
-    {
       "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
@@ -479,26 +499,6 @@
     {
       "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\img\\userImages\\editoruser_639_42_51_16_7_3_2023.png",
       "PackagePath": "staticwebassets\\img\\userImages\\editoruser_639_42_51_16_7_3_2023.png"
-    },
-    {
-      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\js\\categoryIndex.js",
-      "PackagePath": "staticwebassets\\js\\categoryIndex.js"
-    },
-    {
-      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\js\\homeIndex.js",
-      "PackagePath": "staticwebassets\\js\\homeIndex.js"
-    },
-    {
-      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\js\\scripts.js",
-      "PackagePath": "staticwebassets\\js\\scripts.js"
-    },
-    {
-      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
-    },
-    {
-      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\js\\userIndex.js",
-      "PackagePath": "staticwebassets\\js\\userIndex.js"
     },
     {
       "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\lib\\bootstrap\\LICENSE",

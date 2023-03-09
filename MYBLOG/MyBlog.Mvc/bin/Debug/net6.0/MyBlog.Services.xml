@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyBlog.Services</name>
+    </assembly>
+    <members>
+        <member name="M:MyBlog.Services.Abstract.ICategoryService.GetCategoryUpdateDtoAsync(System.Int32)">
+            <summary>
+            Verilen ID parametresine ait kategorinin CategoryUpdateDtoTemsilini döner.
+            </summary>
+            <param name="categoryId">0'dan büyük intager bir id değeri</param>
+            <returns>Asenkron bir operasyon ile task olarak işlem sonucunu DataResult tipinde geri döner</returns>
+        </member>
+    </members>
+</doc>

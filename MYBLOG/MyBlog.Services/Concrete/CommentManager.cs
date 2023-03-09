@@ -22,7 +22,7 @@ namespace MyBlog.Services.Concrete
             _unitOfWork = unitOfWork;
         }
 
-        public async Task<IDataResult<int>> Count()
+        public async Task<IDataResult<int>> CountAsync()
         {
             var commentsCount = await _unitOfWork.Comments.CountAsync();
             if (commentsCount > -1)
@@ -34,7 +34,7 @@ namespace MyBlog.Services.Concrete
                 return new DataResult<int>(ResultStatus.Error, -1, Messages.General.UnKnownError());
             }
         }
-        public async Task<IDataResult<int>> CountByIsDeleted()
+        public async Task<IDataResult<int>> CountByNonDeletedAsync()
         {
             var commentsCount = await _unitOfWork.Comments.CountAsync(x=>!x.IsDeleted);
             if (commentsCount > -1)

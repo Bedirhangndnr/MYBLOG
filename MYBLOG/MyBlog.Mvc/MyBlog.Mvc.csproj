@@ -27,7 +27,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\js\site.js" />
+    <None Include="wwwroot\AdminArea\js\site.js" />
   </ItemGroup>
 
   <ItemGroup>

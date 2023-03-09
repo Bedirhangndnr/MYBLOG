@@ -17,3 +17,5 @@ C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Services\obj\Debug\net6.0\MyBlo
 C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Services\obj\Debug\net6.0\refint\MyBlog.Services.dll
 C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Services\obj\Debug\net6.0\MyBlog.Services.pdb
 C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Services\obj\Debug\net6.0\ref\MyBlog.Services.dll
+C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Services\bin\Debug\net6.0\MyBlog.Services.xml
+C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Services\obj\Debug\net6.0\MyBlog.Services.xml

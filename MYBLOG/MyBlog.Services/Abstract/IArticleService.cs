@@ -14,17 +14,17 @@ namespace MyBlog.Services.Abstract
 {
     public interface IArticleService : IGenericService<Article>
     {
-        Task<IDataResult<ArticleDto>> Get(int articleId);
-        Task<IDataResult<ArticleListDto>> GetAll();
-        Task<IDataResult<ArticleListDto>> GetAllByNonDeleted();
-        Task<IDataResult<ArticleListDto>> GetAllByNonDeletedAndActive ();
-        Task<IDataResult<ArticleListDto>> GetAllByCategory (int categoryId);
-        Task<IResult> Add(ArticleAddDto ArticleAddDto, string createdByName); 
-        Task<IResult> Update(ArticleUpdateDto ArticleUpdateDto, string modifiedByName);
-        Task<IResult> Delete(int ArticleId, string modifiedByName);
-        Task<IResult> HardDelete(int ArticleId); 
-        Task<IDataResult<int>> Count();
-        Task<DataResult<int>> CountByIsDeleted();
+        Task<IDataResult<ArticleDto>> GetAsync(int articleId);
+        Task<IDataResult<ArticleListDto>> GetAllAsync();
+        Task<IDataResult<ArticleListDto>> GetAllByNonDeletedAsync();
+        Task<IDataResult<ArticleListDto>> GetAllByNonDeletedAndActiveAsync ();
+        Task<IDataResult<ArticleListDto>> GetAllByCategoryAsync (int categoryId);
+        Task<IResult> AddAsync(ArticleAddDto ArticleAddDto, string createdByName); 
+        Task<IResult> UpdateAsync(ArticleUpdateDto ArticleUpdateDto, string modifiedByName);
+        Task<IResult> DeleteAsync(int ArticleId, string modifiedByName);
+        Task<IResult> HardDeleteAsync(int ArticleId); 
+        Task<IDataResult<int>> CountAsync();
+        Task<IDataResult<int>> CountByNonDeletedAsync();
 
     }
 }

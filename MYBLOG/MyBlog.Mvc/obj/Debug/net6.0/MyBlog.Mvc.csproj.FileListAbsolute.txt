@@ -575,3 +575,4 @@ C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Mvc\obj\Debug\net6.0\MyBlog.Mvc
 C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Mvc\obj\Debug\net6.0\MyBlog.Mvc.genruntimeconfig.cache
 C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Mvc\obj\Debug\net6.0\ref\MyBlog.Mvc.dll
 C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Mvc\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Mvc\bin\Debug\net6.0\MyBlog.Services.xml
