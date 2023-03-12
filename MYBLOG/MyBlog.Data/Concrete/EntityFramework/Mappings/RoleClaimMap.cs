@@ -14,7 +14,7 @@ namespace MyBlog.Data.Concrete.EntityFramework.Mappings
         public void Configure(EntityTypeBuilder<RoleClaim> builder)
         {
             builder.HasKey(x => x.Id);
-            builder.ToTable("AspNetRoleClaims");
+            builder.ToTable("RoleClaims");
         }
     }
 }

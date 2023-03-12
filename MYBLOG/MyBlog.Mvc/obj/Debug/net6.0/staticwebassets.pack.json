@@ -1,6 +1,14 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\bedir\\.nuget\\packages\\ntoastnotify\\8.0.0\\contentFiles\\any\\net6.0\\wwwroot\\noty.js",
+      "PackagePath": "staticwebassets\\noty.js"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\.nuget\\packages\\ntoastnotify\\8.0.0\\contentFiles\\any\\net6.0\\wwwroot\\toastr.js",
+      "PackagePath": "staticwebassets\\toastr.js"
+    },
+    {
       "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\AdminArea\\assets\\demo\\chart-area-demo.js",
       "PackagePath": "staticwebassets\\AdminArea\\assets\\demo\\chart-area-demo.js"
     },
@@ -25,6 +33,10 @@
       "PackagePath": "staticwebassets\\AdminArea\\css\\httpErrorBgAnimation.css"
     },
     {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\AdminArea\\css\\select2-bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\AdminArea\\css\\select2-bootstrap4.min.css"
+    },
+    {
       "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\AdminArea\\css\\site.css",
       "PackagePath": "staticwebassets\\AdminArea\\css\\site.css"
     },
@@ -37,12 +49,40 @@
       "PackagePath": "staticwebassets\\AdminArea\\css\\userLogin.css"
     },
     {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\AdminArea\\js\\articleAdd.js",
+      "PackagePath": "staticwebassets\\AdminArea\\js\\articleAdd.js"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\AdminArea\\js\\articleIndex.js",
+      "PackagePath": "staticwebassets\\AdminArea\\js\\articleIndex.js"
+    },
+    {
       "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\AdminArea\\js\\categoryIndex.js",
       "PackagePath": "staticwebassets\\AdminArea\\js\\categoryIndex.js"
     },
     {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\AdminArea\\js\\commentIndex.js",
+      "PackagePath": "staticwebassets\\AdminArea\\js\\commentIndex.js"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\AdminArea\\js\\deletedArticles.js",
+      "PackagePath": "staticwebassets\\AdminArea\\js\\deletedArticles.js"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\AdminArea\\js\\deletedCategories.js",
+      "PackagePath": "staticwebassets\\AdminArea\\js\\deletedCategories.js"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\AdminArea\\js\\deletedComments.js",
+      "PackagePath": "staticwebassets\\AdminArea\\js\\deletedComments.js"
+    },
+    {
       "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\AdminArea\\js\\homeIndex.js",
       "PackagePath": "staticwebassets\\AdminArea\\js\\homeIndex.js"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\AdminArea\\js\\roleIndex.js",
+      "PackagePath": "staticwebassets\\AdminArea\\js\\roleIndex.js"
     },
     {
       "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\AdminArea\\js\\scripts.js",
@@ -481,8 +521,84 @@
       "PackagePath": "staticwebassets\\img\\noise-transparent.png"
     },
     {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\img\\postImages\\            ModelState.Remove(nameof(userUpdateDto.PictureFile));_983_52_37_15_10_3_2023.png",
+      "PackagePath": "staticwebassets\\img\\postImages\\            ModelState.Remove(nameof(userUpdateDto.PictureFile));_983_52_37_15_10_3_2023.png"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\img\\postImages\\.NET5 ile Gelen Yenilikler__85_2_7_23_10_3_2023.png",
+      "PackagePath": "staticwebassets\\img\\postImages\\.NET5 ile Gelen Yenilikler__85_2_7_23_10_3_2023.png"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\img\\postImages\\ADFDSFDSAF_635_43_50_15_10_3_2023.png",
+      "PackagePath": "staticwebassets\\img\\postImages\\ADFDSFDSAF_635_43_50_15_10_3_2023.png"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\img\\postImages\\ASDSAD_156_16_58_15_10_3_2023.png",
+      "PackagePath": "staticwebassets\\img\\postImages\\ASDSAD_156_16_58_15_10_3_2023.png"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\img\\postImages\\Asenkron JavaScript_56_18_9_23_10_3_2023.png",
+      "PackagePath": "staticwebassets\\img\\postImages\\Asenkron JavaScript_56_18_9_23_10_3_2023.png"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\img\\postImages\\_______697_30_45_21_11_3_2023.png",
+      "PackagePath": "staticwebassets\\img\\postImages\\_______697_30_45_21_11_3_2023.png"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\img\\postImages\\adsadsadsadsasd_197_46_4_21_10_3_2023.png",
+      "PackagePath": "staticwebassets\\img\\postImages\\adsadsadsadsasd_197_46_4_21_10_3_2023.png"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\img\\postImages\\asdasdasd_722_39_2_19_10_3_2023.png",
+      "PackagePath": "staticwebassets\\img\\postImages\\asdasdasd_722_39_2_19_10_3_2023.png"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\img\\postImages\\asdasdasdasdasdasd_395_30_19_16_10_3_2023.png",
+      "PackagePath": "staticwebassets\\img\\postImages\\asdasdasdasdasdasd_395_30_19_16_10_3_2023.png"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\img\\postImages\\asdsfdsgdfg_249_22_23_19_10_3_2023.png",
+      "PackagePath": "staticwebassets\\img\\postImages\\asdsfdsgdfg_249_22_23_19_10_3_2023.png"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\img\\postImages\\başlık_164_43_10_19_10_3_2023.png",
+      "PackagePath": "staticwebassets\\img\\postImages\\başlık_164_43_10_19_10_3_2023.png"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\img\\postImages\\başlık_315_55_13_19_10_3_2023.png",
+      "PackagePath": "staticwebassets\\img\\postImages\\başlık_315_55_13_19_10_3_2023.png"
+    },
+    {
       "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\img\\postImages\\defaultThumbnail.jpg",
       "PackagePath": "staticwebassets\\img\\postImages\\defaultThumbnail.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\img\\postImages\\dsafdasf_303_8_42_15_10_3_2023.png",
+      "PackagePath": "staticwebassets\\img\\postImages\\dsafdasf_303_8_42_15_10_3_2023.png"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\img\\postImages\\dsafdasf_678_9_17_19_10_3_2023.png",
+      "PackagePath": "staticwebassets\\img\\postImages\\dsafdasf_678_9_17_19_10_3_2023.png"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\img\\postImages\\sad ve d hsad ve d hsad ve d hsad ve d h_917_37_43_15_10_3_2023.png",
+      "PackagePath": "staticwebassets\\img\\postImages\\sad ve d hsad ve d hsad ve d hsad ve d h_917_37_43_15_10_3_2023.png"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\img\\postImages\\sdafg_11_17_23_16_10_3_2023.png",
+      "PackagePath": "staticwebassets\\img\\postImages\\sdafg_11_17_23_16_10_3_2023.png"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\img\\postImages\\sdfafsdafsdasfad_100_5_46_15_10_3_2023.png",
+      "PackagePath": "staticwebassets\\img\\postImages\\sdfafsdafsdasfad_100_5_46_15_10_3_2023.png"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\img\\postImages\\sdffgh_854_11_27_16_10_3_2023.png",
+      "PackagePath": "staticwebassets\\img\\postImages\\sdffgh_854_11_27_16_10_3_2023.png"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\img\\postImages\\xxxxxxxxxxxxxxxxxxxxxxxxxxxxx_703_56_23_19_10_3_2023.png",
+      "PackagePath": "staticwebassets\\img\\postImages\\xxxxxxxxxxxxxxxxxxxxxxxxxxxxx_703_56_23_19_10_3_2023.png"
     },
     {
       "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\img\\userImages\\adminsuser@gmail.com_381_52_42_16_7_3_2023.jfif",
@@ -499,6 +615,10 @@
     {
       "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\img\\userImages\\editoruser_639_42_51_16_7_3_2023.png",
       "PackagePath": "staticwebassets\\img\\userImages\\editoruser_639_42_51_16_7_3_2023.png"
+    },
+    {
+      "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\img\\userImages\\editorussergmailcom_319_4_59_23_11_3_2023.png",
+      "PackagePath": "staticwebassets\\img\\userImages\\editorussergmailcom_319_4_59_23_11_3_2023.png"
     },
     {
       "Id": "C:\\Users\\bedir\\source\\repos\\MYBLOG\\MYBLOG\\MyBlog.Mvc\\wwwroot\\lib\\bootstrap\\LICENSE",

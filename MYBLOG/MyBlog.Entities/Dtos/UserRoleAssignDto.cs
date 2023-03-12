@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MyBlog.Entities.Dtos
+{
+    public class UserRoleAssignDto
+    {
+        public UserRoleAssignDto()
+        {  // bunu constructor içinde initialie ettik çünkü bir Interface tipindeki
+           // değişkene tek tek ekleme yapamayız, ancak hazır bir liste varsa atama yapabiliriz.
+           // Ve biz buradaki listeye tek tek role ekleyeceğiz. Dolayısıyla önce başlatmamaız gerekti
+            RoleAssignDtos = new List<RoleAssignDto>();
+        }
+        public int UserId { get; set; }
+        public string UserName { get; set; }
+        public IList<RoleAssignDto> RoleAssignDtos { get; set; }
+    }
+}

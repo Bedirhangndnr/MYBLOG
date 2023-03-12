@@ -1,6 +1,7 @@
 C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Services\bin\Debug\net6.0\MyBlog.Services.deps.json
 C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Services\bin\Debug\net6.0\MyBlog.Services.dll
 C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Services\bin\Debug\net6.0\MyBlog.Services.pdb
+C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Services\bin\Debug\net6.0\MyBlog.Services.xml
 C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Services\bin\Debug\net6.0\MyBlog.Data.dll
 C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Services\bin\Debug\net6.0\MyBlog.Entities.dll
 C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Services\bin\Debug\net6.0\MyBlog.Shared.dll
@@ -15,7 +16,6 @@ C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Services\obj\Debug\net6.0\MyBlo
 C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Services\obj\Debug\net6.0\MyBlog.Services.csproj.CopyComplete
 C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Services\obj\Debug\net6.0\MyBlog.Services.dll
 C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Services\obj\Debug\net6.0\refint\MyBlog.Services.dll
+C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Services\obj\Debug\net6.0\MyBlog.Services.xml
 C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Services\obj\Debug\net6.0\MyBlog.Services.pdb
 C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Services\obj\Debug\net6.0\ref\MyBlog.Services.dll
-C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Services\bin\Debug\net6.0\MyBlog.Services.xml
-C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Services\obj\Debug\net6.0\MyBlog.Services.xml

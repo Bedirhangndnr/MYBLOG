@@ -55,5 +55,7 @@ namespace MyBlog.Entities.Dtos
         [DisplayName("Silinsin Mi?")]
         [Required(ErrorMessage = "{0} Boş Geçilemez...")]
         public bool IsDeleted { get; set; }
+        [Required]
+        public int userId { get; set; }
     }
 }

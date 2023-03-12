@@ -16,6 +16,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Mvc
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Areas/Admin/Views/Article/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXJ0aWNsZVxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Areas/Admin/Views/Article/DeletedArticles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXJ0aWNsZVxEZWxldGVkQXJ0aWNsZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Areas/Admin/Views/Article/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXJ0aWNsZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Areas/Admin/Views/Article/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXJ0aWNsZVxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Areas/Admin/Views/Category/DeletedCategories.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcRGVsZXRlZENhdGVnb3JpZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Areas/Admin/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -28,8 +48,32 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcX0NhdGVnb3J5VXBkYXRlUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Areas/Admin/Views/Comment/DeletedComments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29tbWVudFxEZWxldGVkQ29tbWVudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Areas/Admin/Views/Comment/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29tbWVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Areas/Admin/Views/Comment/_CommentDetailPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29tbWVudFxfQ29tbWVudERldGFpbFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Areas/Admin/Views/Comment/_CommentUpdatePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29tbWVudFxfQ29tbWVudFVwZGF0ZVBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Areas/Admin/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Areas/Admin/Views/Role/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Areas/Admin/Views/Role/_RoleAssignPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZVxfUm9sZUFzc2lnblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Areas/Admin/Views/Shared/Components/AdminMenu/Default.cshtml]
@@ -74,6 +118,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Areas/Admin/Views/User/UserLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxVc2VyTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Areas/Admin/Views/User/_GetDetailPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxfR2V0RGV0YWlsUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Areas/Admin/Views/User/_UserAddPartial.cshtml]

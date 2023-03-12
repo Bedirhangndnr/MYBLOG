@@ -1,9 +1,10 @@
 ﻿using Microsoft.AspNetCore.Http.Features;
 using MyBlog.Mvc.AutoMapper.Profiles;
 using MyBlog.Mvc.Halpers.Abstract;
-using MyBlog.Mvc.Halpers.Concrete;
+using MyBlog.Mvc.Helpers.Concrete;
 using MyBlog.Services.AutoMapper.Profiles;
 using MyBlog.Services.Extensions;
+using ProgrammersBlog.Mvc.Filters;
 using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,22 +12,26 @@ var builder = WebApplication.CreateBuilder(args);
 // AddAsync services to the container.
 builder.Services.AddRazorPages();
 builder.Services.ConfigureApplicationCookie(options => { });
-builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation().AddJsonOptions(opt =>
+builder.Services.AddControllersWithViews(options=> {
+    options.ModelBindingMessageProvider.SetValueMustNotBeNullAccessor(value => "Bu alan boş geçilemez");
+    options.Filters.Add<MvcExceptionFilter>();
+
+}).AddRazorRuntimeCompilation().AddJsonOptions(opt =>
 {
     opt.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
     opt.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve; // bu işlem şu an buglı çalışıyor. ilerleyen dönemlerden bu g çözülürse kullanılabilir.
 }); // Eklendi
 
 builder.Services.AddSession();
-builder.Services.AddAutoMapper(typeof(CategoryProfile), typeof(ArticleProfile), typeof(UserProfile)); // Eklendi
+builder.Services.AddAutoMapper(typeof(CategoryProfile), typeof(ArticleProfile), typeof(UserProfile), typeof(ViewModelsProfile), typeof(CommentProfile)); // Eklendi
 
 // Eklendi // mvc katmanı ile diğer katmanlar arasında köprü görevi görür
 var Configuration = builder.Configuration;
 builder.Services.LoadMyServices(connectionString: Configuration.GetConnectionString("LocalDb"));
 
 // sevis kaydedilmeli
-builder.Services.AddScoped<IImageHelper, ImageHelper>();
-builder.Services.Configure<FormOptions>(options =>options.ValueCountLimit= 10000);
+    builder.Services.AddScoped<IImageHelper, ImageHelper>();
+    builder.Services.Configure<FormOptions>(options =>options.ValueCountLimit= 10000);
 //builder.Services.AddControllers(mvcoptions => mvcoptions.ValueProviderFactories().)
 builder.Services.ConfigureApplicationCookie(options =>
 {
@@ -56,7 +61,8 @@ builder.Services.ConfigureApplicationCookie(options =>
 
 });
 
-
+builder.Services.AddControllersWithViews(option=> option.ModelBindingMessageProvider.SetValueMustNotBeNullAccessor(_ => "Bu alan boş geçilemez."))
+    .AddNToastNotifyToastr();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -76,6 +82,7 @@ app.UseStaticFiles();
 app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
+app.UseNToastNotify();
 app.UseEndpoints(endpoints =>
 {
     endpoints.MapAreaControllerRoute(

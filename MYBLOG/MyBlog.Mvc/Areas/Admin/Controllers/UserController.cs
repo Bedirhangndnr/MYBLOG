@@ -3,14 +3,17 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using MyBlog.Entities.ComplexTypes;
 using MyBlog.Entities.Concrete;
 using MyBlog.Entities.Dtos;
 using MyBlog.Mvc.Areas.Admin.Models;
 using MyBlog.Mvc.Halpers.Abstract;
+using MyBlog.Mvc.Helpers.Concrete;
 using MyBlog.Services.Abstract;
 using MyBlog.Shared.Utilities.Extensions;
 using MyBlog.Shared.Utilities.Results.ComplexTypes;
 using MyBlog.Shared.Utilities.Results.Concrete;
+using NToastNotify;
 using System.IO;
 using System.Text.Json;
 using System.Text.Json.Serialization;
@@ -18,24 +21,22 @@ using System.Text.Json.Serialization;
 namespace MyBlog.Mvc.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    public class UserController : Controller
+    public class UserController : BaseController
     {
-        private readonly UserManager<User> _userManager;
         private readonly SignInManager<User> _signInManager;
-        private readonly IMapper _mapper;
-        private readonly IImageHelper _imageHelper;
+        private readonly IToastNotification _toastNotification;
 
-        public UserController(UserManager<User> userManager, IMapper mapper, SignInManager<User> signInManager, IImageHelper imageHelper)
+        public UserController(UserManager<User> userManager, IMapper mapper, SignInManager<User> signInManager, IImageHelper imageHelper, IToastNotification toastNotification)
+            : base(userManager, mapper, imageHelper)
         {
-            _userManager = userManager;
-            _mapper = mapper;
             _signInManager = signInManager;
-            _imageHelper = imageHelper;
+            _toastNotification = toastNotification;
         }
-        [Authorize(Roles = "Admin")]
+
+        [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> Index()
         {
-            var users = await _userManager.Users.ToListAsync();
+            var users = await UserManager.Users.ToListAsync();
             return View(new UserListDto
             {
                 Users = users,
@@ -52,7 +53,7 @@ namespace MyBlog.Mvc.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = await _userManager.FindByEmailAsync(userLoginDto.Email);
+                var user = await UserManager.FindByEmailAsync(userLoginDto.Email);
                 if (user != null)
                 {
                     var result = await _signInManager.PasswordSignInAsync(user, userLoginDto.Password,
@@ -86,11 +87,11 @@ namespace MyBlog.Mvc.Areas.Admin.Controllers
             await _signInManager.SignOutAsync();
             return RedirectToAction("Index", "Home", new { Area = "" });
         }
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "SuperAdmin")]
         [HttpGet]
         public async Task<JsonResult> GetAllUsers()
         {
-            var users = await _userManager.Users.ToListAsync();
+            var users = await UserManager.Users.ToListAsync();
             var userListDto = JsonSerializer.Serialize(new UserListDto
             {
                 Users = users,
@@ -101,7 +102,7 @@ namespace MyBlog.Mvc.Areas.Admin.Controllers
             });
             return Json(userListDto);
         }
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "SuperAdmin")]
         [HttpGet]
         public IActionResult Add()
         {
@@ -119,19 +120,22 @@ namespace MyBlog.Mvc.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = await _userManager.GetUserAsync(HttpContext.User);
-                var isVerified = await _userManager.CheckPasswordAsync(user, userPasswordChangeDto.CurrentPassword);
+                var user = await UserManager.GetUserAsync(HttpContext.User);
+                var isVerified = await UserManager.CheckPasswordAsync(user, userPasswordChangeDto.CurrentPassword);
                 if (isVerified)
                 {
-                    var result = await _userManager.ChangePasswordAsync(user,
+                    var result = await UserManager.ChangePasswordAsync(user,
                         userPasswordChangeDto.CurrentPassword,
                         userPasswordChangeDto.NewPassword);
                     if (result.Succeeded)
                     {//  daha önce kullanmadığımız bir metot kullanacağız: SecurityStampt. Öneli bir bilgi güncellediğimiz için bu değer değişmelidir
-                        await _userManager.UpdateSecurityStampAsync(user);
+                        await UserManager.UpdateSecurityStampAsync(user);
                         await _signInManager.SignOutAsync();    //User, new password                    , 7 gün hatırla, kilitlenme
                         await _signInManager.PasswordSignInAsync(user, userPasswordChangeDto.NewPassword, true, false);
-                        TempData.Add("SuccessMessage", $"Şifreniz Başarıyla Değiştirilmiştir.");
+                        _toastNotification.AddSuccessToastMessage("Bilgileriniz başarıyla güncellenmiştir", new ToastrOptions
+                        {
+                            Title = "Başarılı İşlem!"
+                        });
                         return View();
                     }
                     else
@@ -154,17 +158,25 @@ namespace MyBlog.Mvc.Areas.Admin.Controllers
                 return View();
             }
         }
-        [Authorize(Roles = "Admin, Editor")]
+        [Authorize(Roles = "SuperAdmin, Editor")]
         [HttpPost]
         public async Task<IActionResult> Add(UserAddDto userAddDto)
         {
             if (ModelState.IsValid)
             {
-                var uploadedImageDtoResult = await _imageHelper.UploadUserImage(userAddDto.UserName, userAddDto.PictureFile);
-                userAddDto.Picture =uploadedImageDtoResult.ResultStatus==ResultStatus.Success ? 
-                    uploadedImageDtoResult.Data.FullName: "userImages/defaultUser.png";
-                var user = _mapper.Map<User>(userAddDto);
-                var result = await _userManager.CreateAsync(user, userAddDto.Password);
+                if (userAddDto.PictureFile != null)
+                {
+                    var uploadedImageDtoResult = await ImageHelper.Upload(userAddDto.UserName, userAddDto.PictureFile, PictureType.User);
+                    userAddDto.Picture = uploadedImageDtoResult.ResultStatus == ResultStatus.Success ?
+    uploadedImageDtoResult.Data.FullName : "userImages/defaultUser.png";
+                }
+                else
+                {
+                    userAddDto.Picture =  "userImages/defaultUser.png";
+                }
+
+                var user = Mapper.Map<User>(userAddDto);
+                var result = await UserManager.CreateAsync(user, userAddDto.Password);
                 if (result.Succeeded)
                 {
                     var userAddAjaxModel = JsonSerializer.Serialize(new UserAddAjaxViewModel
@@ -208,13 +220,17 @@ namespace MyBlog.Mvc.Areas.Admin.Controllers
         {
             return View();
         }
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "SuperAdmin")]
         public async Task<JsonResult> Delete(int userId)
         {
-            var user = await _userManager.FindByIdAsync(userId.ToString());
-            var result = await _userManager.DeleteAsync(user);
+            var user = await UserManager.FindByIdAsync(userId.ToString());
+            var result = await UserManager.DeleteAsync(user);
             if (result.Succeeded)
             {
+                if (user.Picture != "userImages/defaultUser.png")
+                {
+                    ImageHelper.Delete(user.Picture);
+                }
                 var deletedUser = JsonSerializer.Serialize(new UserDto
                 {
                     ResultStatus = ResultStatus.Success,
@@ -241,28 +257,27 @@ namespace MyBlog.Mvc.Areas.Admin.Controllers
                 return Json(deletedUserErrorModel);
             }
         }
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "SuperAdmin")]
         [HttpGet]
         public async Task<PartialViewResult> Update(int userId)
         {
-            var user = await _userManager.Users.FirstOrDefaultAsync(u => u.Id == userId);
-            var userUpdateDto = _mapper.Map<UserUpdateDto>(user);
+            var user = await UserManager.Users.FirstOrDefaultAsync(u => u.Id == userId);
+            var userUpdateDto = Mapper.Map<UserUpdateDto>(user);
             return PartialView("_UserUpdatePartial", userUpdateDto);
         }
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "SuperAdmin")]
         [HttpPost]
         public async Task<IActionResult> Update(UserUpdateDto userUpdateDto)
         {
             ModelState.Remove(nameof(userUpdateDto.PictureFile));
-
             if (ModelState.IsValid)
-            { 
+            {
                 bool isNewPictureUploaded = false;
-                var oldUser = await _userManager.FindByIdAsync(userUpdateDto.Id.ToString());
+                var oldUser = await UserManager.FindByIdAsync(userUpdateDto.Id.ToString());
                 var oldUserPicture = oldUser.Picture;
                 if (userUpdateDto.PictureFile != null)
                 {
-                    var uploadedImageDtoResult = await _imageHelper.UploadUserImage(userUpdateDto.UserName, userUpdateDto.PictureFile);
+                    var uploadedImageDtoResult = await ImageHelper.Upload(userUpdateDto.UserName, userUpdateDto.PictureFile, PictureType.User);
                     userUpdateDto.Picture = uploadedImageDtoResult.ResultStatus == ResultStatus.Success ?
                         uploadedImageDtoResult.Data.FullName : "userImages/defaultUser.png";
                     if (oldUserPicture != "userImages/defaultUser.png")
@@ -271,13 +286,13 @@ namespace MyBlog.Mvc.Areas.Admin.Controllers
                     }
                 }
 
-                var updatedUser = _mapper.Map<UserUpdateDto, User>(userUpdateDto, oldUser);
-                var result = await _userManager.UpdateAsync(updatedUser);
+                var updatedUser = Mapper.Map<UserUpdateDto, User>(userUpdateDto, oldUser);
+                var result = await UserManager.UpdateAsync(updatedUser);
                 if (result.Succeeded)
                 {
                     if (isNewPictureUploaded)
                     {
-                        _imageHelper.Delete(oldUserPicture);
+                        ImageHelper.Delete(oldUserPicture);
                     }
 
                     var userUpdateViewModel = JsonSerializer.Serialize(new UserUpdateAjaxViewModel
@@ -321,8 +336,8 @@ namespace MyBlog.Mvc.Areas.Admin.Controllers
         [HttpGet]
         public async Task<ViewResult> ChangeDetails()
         {
-            var user = await _userManager.GetUserAsync(HttpContext.User);
-            var updateDto = _mapper.Map<UserUpdateDto>(user);
+            var user = await UserManager.GetUserAsync(HttpContext.User);
+            var updateDto = Mapper.Map<UserUpdateDto>(user);
             return View(updateDto);
         }
         [HttpPost]
@@ -332,11 +347,11 @@ namespace MyBlog.Mvc.Areas.Admin.Controllers
             if (ModelState.IsValid)
             {
                 bool isNewPictureUploaded = false;
-                var oldUser = _userManager.GetUserAsync(HttpContext.User).Result;
+                var oldUser = UserManager.GetUserAsync(HttpContext.User).Result;
                 var oldUserPicture = oldUser.Picture;
                 if (userUpdateDto.PictureFile != null)
                 {
-                    var uploadedImageDtoResult = await _imageHelper.UploadUserImage(userUpdateDto.UserName, userUpdateDto.PictureFile);
+                    var uploadedImageDtoResult = await ImageHelper.Upload(userUpdateDto.UserName, userUpdateDto.PictureFile, PictureType.User);
                     userUpdateDto.Picture = uploadedImageDtoResult.ResultStatus == ResultStatus.Success ?
                         uploadedImageDtoResult.Data.FullName : "userImages/defaultUser.png";
                     if (oldUserPicture != "userImages/defaultUser.png")
@@ -345,15 +360,18 @@ namespace MyBlog.Mvc.Areas.Admin.Controllers
                     }
                 }
 
-                var updatedUser = _mapper.Map<UserUpdateDto, User>(userUpdateDto, oldUser);
-                var result = await _userManager.UpdateAsync(updatedUser);
+                var updatedUser = Mapper.Map<UserUpdateDto, User>(userUpdateDto, oldUser);
+                var result = await UserManager.UpdateAsync(updatedUser);
                 if (result.Succeeded)
                 {
                     if (isNewPictureUploaded)
                     {
-                        _imageHelper.Delete(oldUserPicture);
+                        ImageHelper.Delete(oldUserPicture);
                     }
-                    TempData.Add("SuccessMessage", $"{updatedUser.UserName} Adlı Kullanıcı Başarıyla Güncellenmiştir.");
+                    _toastNotification.AddSuccessToastMessage("Bilgileriniz başarıyla güncellenmiştir", new ToastrOptions
+                    {
+                        Title = "Başarılı İşlem!"
+                    });
                     return View(userUpdateDto);
                 }
                 else

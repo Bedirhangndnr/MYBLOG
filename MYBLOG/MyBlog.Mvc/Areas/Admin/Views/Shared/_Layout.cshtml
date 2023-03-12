@@ -9,6 +9,9 @@
 
     <title>@ViewBag.Title - Admin Paneli | My Blog</title>
     @await Html.PartialAsync("_LayoutCssPartial")
+    @await RenderSectionAsync("Styles", false);@*/* Eğer viewların altında scripts adı altında scripts eklersek bunların layout içince yüklenmesini sağlar*/*@
+    <link href="~/AdminArea/css/site.css" rel="stylesheet">
+
 </head>
 <body class="sb-nav-fixed">
     <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">

@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace MyBlog.Entities.Dtos
-{
+{ 
     public class UserListDto:DtoGetBase
     {
         public IList<User> Users { get; set; }

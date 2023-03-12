@@ -14,7 +14,7 @@ namespace MyBlog.Data.Concrete.EntityFramework.Mappings
         public void Configure(EntityTypeBuilder<UserClaim> builder)
         {
             builder.HasKey(x => x.Id);
-            builder.ToTable("AspNetUserClaims");
+            builder.ToTable("UserClaims");
         }
     }
 }

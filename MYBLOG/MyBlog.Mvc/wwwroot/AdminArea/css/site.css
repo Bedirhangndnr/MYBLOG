@@ -1,4 +1,4 @@
-﻿
+﻿/*TÜM SİTEDE GEÇERLİ CSS STYLELARI*/
 html {
   font-size: 14px;
 }
@@ -13,9 +13,9 @@ html {
   position: relative;
   min-height: 100%;
 }
-
+ 
 body {
-  margin-bottom: 60px;
+  margin-bottom: 60px; 
 }
 /*profil fotografları için*/
 .my-image{

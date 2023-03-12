@@ -53,6 +53,8 @@ namespace MyBlog.Entities.Dtos
         [DisplayName("Silinsin Mi?")]
         [Required(ErrorMessage = "{0} Boş Geçilemez...")]
         public bool IsDeleted { get; set; }
+        [DisplayName("Not")]
+        public string Note { get; set; }
         //public int UserID{ get; set; }         bu değerleri session ile kendimiz elle ekleyeceğiz 
         //public User User{ get; set; }        
     }

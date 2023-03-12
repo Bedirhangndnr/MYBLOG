@@ -328,6 +328,7 @@ C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Mvc\bin\Debug\net6.0\Microsoft.
 C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Mvc\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
 C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Mvc\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Mvc\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Mvc\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Mvc\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Mvc\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Mvc\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
@@ -353,6 +354,7 @@ C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Mvc\bin\Debug\net6.0\Microsoft.
 C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Mvc\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Mvc\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Mvc\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Mvc\bin\Debug\net6.0\NToastNotify.dll
 C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Mvc\bin\Debug\net6.0\NuGet.Common.dll
 C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Mvc\bin\Debug\net6.0\NuGet.Configuration.dll
 C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Mvc\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
@@ -548,6 +550,7 @@ C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Mvc\bin\Debug\net6.0\MyBlog.Ent
 C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Mvc\bin\Debug\net6.0\MyBlog.Services.dll
 C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Mvc\bin\Debug\net6.0\MyBlog.Shared.dll
 C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Mvc\bin\Debug\net6.0\MyBlog.Services.pdb
+C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Mvc\bin\Debug\net6.0\MyBlog.Services.xml
 C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Mvc\bin\Debug\net6.0\MyBlog.Data.pdb
 C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Mvc\bin\Debug\net6.0\MyBlog.Entities.pdb
 C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Mvc\bin\Debug\net6.0\MyBlog.Shared.pdb
@@ -574,5 +577,3 @@ C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Mvc\obj\Debug\net6.0\refint\MyB
 C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Mvc\obj\Debug\net6.0\MyBlog.Mvc.pdb
 C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Mvc\obj\Debug\net6.0\MyBlog.Mvc.genruntimeconfig.cache
 C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Mvc\obj\Debug\net6.0\ref\MyBlog.Mvc.dll
-C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Mvc\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Mvc\bin\Debug\net6.0\MyBlog.Services.xml
