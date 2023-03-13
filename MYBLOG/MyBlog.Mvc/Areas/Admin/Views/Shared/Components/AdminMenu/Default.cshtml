@@ -23,7 +23,7 @@
                     <div class="sb-nav-link-icon"><i class="fas fa-comments"></i></div>
                     Yorumlar
                 </a>
-                @if (Model.Roles.Any(x=>x.Equals("SuperAdmin, Role.Read")))
+                @if (Model.Roles.Any(x => x.Equals("SuperAdmin")) || Model.Roles.Any(x => x.Equals("Roles")))
                 {
                     <a class="nav-link" asp-area="Admin" asp-controller="Role" asp-action="Index">
                         <div class="sb-nav-link-icon"><i class="fas fa-user-shield"></i></div>

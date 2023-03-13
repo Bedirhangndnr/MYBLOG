@@ -10,7 +10,7 @@ using MyBlog.Shared.Utilities.Results.ComplexTypes;
 namespace MyBlog.Mvc.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [Authorize(Roles = "Admin, Editor")]
+    [Authorize(Roles = "SuperAdmin, Editor")]
     public class HomeController : Controller
     {
         private readonly ICategoryService _categoryService;
@@ -25,7 +25,6 @@ namespace MyBlog.Mvc.Areas.Admin.Controllers
             _commentService = commentService;
             _userManager = userManager;
         }
-
         public async Task<IActionResult> Index()
         {
             var categoriesCountResult= await _categoryService.CountByNonDeletedAsync();
