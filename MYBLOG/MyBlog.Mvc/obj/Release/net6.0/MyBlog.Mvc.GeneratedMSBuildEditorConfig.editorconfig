@@ -12,9 +12,29 @@ build_property.RootNamespace = MyBlog.Mvc
 build_property.ProjectDir = C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Mvc\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\Users\bedir\source\repos\MYBLOG\MYBLOG\MyBlog.Mvc
 build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Areas/Admin/Views/Article/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXJ0aWNsZVxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Areas/Admin/Views/Article/DeletedArticles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXJ0aWNsZVxEZWxldGVkQXJ0aWNsZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Areas/Admin/Views/Article/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXJ0aWNsZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Areas/Admin/Views/Article/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXJ0aWNsZVxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Areas/Admin/Views/Category/DeletedCategories.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcRGVsZXRlZENhdGVnb3JpZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Areas/Admin/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
@@ -28,8 +48,40 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcX0NhdGVnb3J5VXBkYXRlUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Areas/Admin/Views/Comment/DeletedComments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29tbWVudFxEZWxldGVkQ29tbWVudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Areas/Admin/Views/Comment/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29tbWVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Areas/Admin/Views/Comment/_CommentDetailPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29tbWVudFxfQ29tbWVudERldGFpbFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Areas/Admin/Views/Comment/_CommentUpdatePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29tbWVudFxfQ29tbWVudFVwZGF0ZVBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Areas/Admin/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Areas/Admin/Views/Role/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Areas/Admin/Views/Role/_RoleAssignPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZVxfUm9sZUFzc2lnblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Areas/Admin/Views/Shared/Components/AdminMenu/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXENvbXBvbmVudHNcQWRtaW5NZW51XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Areas/Admin/Views/Shared/Components/UserMenu/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXENvbXBvbmVudHNcVXNlck1lbnVcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Areas/Admin/Views/Shared/_Layout.cshtml]
@@ -44,16 +96,40 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXRKc1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Areas/Admin/Views/Shared/_LayoutSideBarNavPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXRTaWRlQmFyTmF2UGFydGlhbC5jc2h0bWw=
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Areas/Admin/Views/Shared/_UserLoginLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9Vc2VyTG9naW5MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Areas/Admin/Views/User/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Areas/Admin/Views/User/ChangeDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxDaGFuZ2VEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Areas/Admin/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Areas/Admin/Views/User/PasswordChange.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxQYXNzd29yZENoYW5nZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Areas/Admin/Views/User/UserLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxVc2VyTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Areas/Admin/Views/User/_GetDetailPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxfR2V0RGV0YWlsUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Areas/Admin/Views/User/_UserAddPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxfVXNlckFkZFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Areas/Admin/Views/User/_UserUpdatePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxfVXNlclVwZGF0ZVBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Areas/Admin/Views/_ViewImports.cshtml]
@@ -66,6 +142,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Views/Shared/_ComingSoonLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Db21pbmdTb29uTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Views/Shared/_ErrorLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9FcnJvckxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Views/Shared/_Layout.cshtml]
@@ -90,4 +174,128 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/wwwroot/AdminArea/js/Views/Article/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxBZG1pbkFyZWFcanNcVmlld3NcQXJ0aWNsZVxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/wwwroot/AdminArea/js/Views/Article/DeletedArticles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxBZG1pbkFyZWFcanNcVmlld3NcQXJ0aWNsZVxEZWxldGVkQXJ0aWNsZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/wwwroot/AdminArea/js/Views/Article/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxBZG1pbkFyZWFcanNcVmlld3NcQXJ0aWNsZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/wwwroot/AdminArea/js/Views/Article/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxBZG1pbkFyZWFcanNcVmlld3NcQXJ0aWNsZVxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/wwwroot/AdminArea/js/Views/Auth/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxBZG1pbkFyZWFcanNcVmlld3NcQXV0aFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/wwwroot/AdminArea/js/Views/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxBZG1pbkFyZWFcanNcVmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/wwwroot/AdminArea/js/Views/Category/DeletedCategories.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxBZG1pbkFyZWFcanNcVmlld3NcQ2F0ZWdvcnlcRGVsZXRlZENhdGVnb3JpZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/wwwroot/AdminArea/js/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxBZG1pbkFyZWFcanNcVmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/wwwroot/AdminArea/js/Views/Category/_CategoryAddPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxBZG1pbkFyZWFcanNcVmlld3NcQ2F0ZWdvcnlcX0NhdGVnb3J5QWRkUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/wwwroot/AdminArea/js/Views/Category/_CategoryUpdatePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxBZG1pbkFyZWFcanNcVmlld3NcQ2F0ZWdvcnlcX0NhdGVnb3J5VXBkYXRlUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/wwwroot/AdminArea/js/Views/Comment/DeletedComments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxBZG1pbkFyZWFcanNcVmlld3NcQ29tbWVudFxEZWxldGVkQ29tbWVudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/wwwroot/AdminArea/js/Views/Comment/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxBZG1pbkFyZWFcanNcVmlld3NcQ29tbWVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/wwwroot/AdminArea/js/Views/Comment/_CommentDetailPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxBZG1pbkFyZWFcanNcVmlld3NcQ29tbWVudFxfQ29tbWVudERldGFpbFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/wwwroot/AdminArea/js/Views/Comment/_CommentUpdatePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxBZG1pbkFyZWFcanNcVmlld3NcQ29tbWVudFxfQ29tbWVudFVwZGF0ZVBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/wwwroot/AdminArea/js/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxBZG1pbkFyZWFcanNcVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/wwwroot/AdminArea/js/Views/Role/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxBZG1pbkFyZWFcanNcVmlld3NcUm9sZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/wwwroot/AdminArea/js/Views/Role/_RoleAssignPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxBZG1pbkFyZWFcanNcVmlld3NcUm9sZVxfUm9sZUFzc2lnblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/wwwroot/AdminArea/js/Views/Shared/Components/AdminMenu/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxBZG1pbkFyZWFcanNcVmlld3NcU2hhcmVkXENvbXBvbmVudHNcQWRtaW5NZW51XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/wwwroot/AdminArea/js/Views/Shared/Components/UserMenu/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxBZG1pbkFyZWFcanNcVmlld3NcU2hhcmVkXENvbXBvbmVudHNcVXNlck1lbnVcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/wwwroot/AdminArea/js/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxBZG1pbkFyZWFcanNcVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/wwwroot/AdminArea/js/Views/Shared/_LayoutCssPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxBZG1pbkFyZWFcanNcVmlld3NcU2hhcmVkXF9MYXlvdXRDc3NQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/wwwroot/AdminArea/js/Views/Shared/_LayoutJsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxBZG1pbkFyZWFcanNcVmlld3NcU2hhcmVkXF9MYXlvdXRKc1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/wwwroot/AdminArea/js/Views/Shared/_UserLoginLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxBZG1pbkFyZWFcanNcVmlld3NcU2hhcmVkXF9Vc2VyTG9naW5MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/wwwroot/AdminArea/js/Views/User/ChangeDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxBZG1pbkFyZWFcanNcVmlld3NcVXNlclxDaGFuZ2VEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/wwwroot/AdminArea/js/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxBZG1pbkFyZWFcanNcVmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/wwwroot/AdminArea/js/Views/User/PasswordChange.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxBZG1pbkFyZWFcanNcVmlld3NcVXNlclxQYXNzd29yZENoYW5nZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/wwwroot/AdminArea/js/Views/User/_GetDetailPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxBZG1pbkFyZWFcanNcVmlld3NcVXNlclxfR2V0RGV0YWlsUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/wwwroot/AdminArea/js/Views/User/_UserAddPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxBZG1pbkFyZWFcanNcVmlld3NcVXNlclxfVXNlckFkZFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/wwwroot/AdminArea/js/Views/User/_UserUpdatePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxBZG1pbkFyZWFcanNcVmlld3NcVXNlclxfVXNlclVwZGF0ZVBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/wwwroot/AdminArea/js/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxBZG1pbkFyZWFcanNcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bedir/source/repos/MYBLOG/MYBLOG/MyBlog.Mvc/wwwroot/AdminArea/js/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxBZG1pbkFyZWFcanNcVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

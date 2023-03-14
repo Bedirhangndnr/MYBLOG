@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\MyBlog.Mvc",
+    "\\MyBlog.Mvc\\Areas",
+    "\\MyBlog.Mvc\\Areas\\Admin",
+    "\\MyBlog.Mvc\\Areas\\Admin\\Views",
+    "\\MyBlog.Mvc\\Areas\\Admin\\Views\\Home"
+  ],
+  "SelectedNode": "\\MyBlog.Mvc\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+  "PreviewInSolutionExplorer": false
+}

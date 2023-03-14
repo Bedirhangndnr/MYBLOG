@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProgrammersBlog.Shared.Entities.Concrete
+namespace MyBlog.Shared.Entities.Concrete
 {
     public class MvcErrorModel
     {

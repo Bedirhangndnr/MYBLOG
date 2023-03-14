@@ -9,11 +9,11 @@ using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using ProgrammersBlog.Shared.Entities.Concrete;
+using MyBlog.Shared.Entities.Concrete;
 // BU SAYFADA OLUŞTURDUĞUMUZ, KENDİ FİLTREMİZİ PROGRAM.CS DOSYASINDA ADDCONTROLLERSVİTHVİEWS İLE EKLEYEREK ENTEGRE ETTİK.
 // Burada yapılan işlemler site ziyaretçilerinin göreceği sayfalar ile ilgili olacak.
 // BLOG SİTESİNİN TASARIMIYLA BİRLİKTE BURAYA DÖNÜLECEK.
-namespace ProgrammersBlog.Mvc.Filters
+namespace MyBlog.Mvc.Filters
 {
     public class MvcExceptionFilter:IExceptionFilter
     {
